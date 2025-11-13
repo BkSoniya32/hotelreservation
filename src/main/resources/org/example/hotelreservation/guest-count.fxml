@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.HBox?>
+
+<VBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="org.example.hotelreservation.controller.GuestCountController"
+      spacing="20" alignment="CENTER" prefWidth="800" prefHeight="600"
+      style="-fx-background-color: #f0f8ff; -fx-padding: 40px;">
+
+    <Label text="How many people are staying?" style="-fx-font-size: 18px;" />
+
+    <Spinner fx:id="guestSpinner" prefWidth="120"/>
+
+    <HBox spacing="20" alignment="CENTER">
+        <Button text="Back" onAction="#goBack"/>
+        <Button text="Next" onAction="#goNext"/>
+    </HBox>
+</VBox>

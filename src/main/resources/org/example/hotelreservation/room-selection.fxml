@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="org.example.hotelreservation.controller.RoomSelectionController"
+      alignment="TOP_CENTER"
+      spacing="25"
+      prefWidth="800" prefHeight="750"
+      style="-fx-background-color: #e6fff5; -fx-padding: 40px;">
+
+    <!-- Title -->
+    <Label text="Select Rooms for Your Guests"
+           style="-fx-font-size: 24px; -fx-font-weight: bold; -fx-text-fill: #004d40;" />
+
+    <!-- Room Type Selection Area -->
+    <VBox spacing="18" style="-fx-font-size: 16px; -fx-text-fill: #333;">
+
+        <!-- SINGLE ROOMS -->
+        <VBox spacing="8">
+            <HBox spacing="20" alignment="CENTER_LEFT">
+                <Label text="Single Rooms:" style="-fx-pref-width: 150px;" />
+                <Spinner fx:id="singleSpinner" prefWidth="100" />
+            </HBox>
+            <VBox fx:id="singleRoomChoices" spacing="6" style="-fx-padding: 0 0 0 30;" />
+        </VBox>
+
+        <!-- DOUBLE ROOMS -->
+        <VBox spacing="8">
+            <HBox spacing="20" alignment="CENTER_LEFT">
+                <Label text="Double Rooms:" style="-fx-pref-width: 150px;" />
+                <Spinner fx:id="doubleSpinner" prefWidth="100" />
+            </HBox>
+            <VBox fx:id="doubleRoomChoices" spacing="6" style="-fx-padding: 0 0 0 30;" />
+        </VBox>
+
+        <!-- DELUXE ROOMS -->
+        <VBox spacing="8">
+            <HBox spacing="20" alignment="CENTER_LEFT">
+                <Label text="Deluxe Rooms:" style="-fx-pref-width: 150px;" />
+                <Spinner fx:id="deluxeSpinner" prefWidth="100" />
+            </HBox>
+            <VBox fx:id="deluxeRoomChoices" spacing="6" style="-fx-padding: 0 0 0 30;" />
+        </VBox>
+
+        <!-- PENTHOUSE ROOMS -->
+        <VBox spacing="8">
+            <HBox spacing="20" alignment="CENTER_LEFT">
+                <Label text="Penthouse Rooms:" style="-fx-pref-width: 150px;" />
+                <Spinner fx:id="penthouseSpinner" prefWidth="100" />
+            </HBox>
+            <VBox fx:id="penthouseRoomChoices" spacing="6" style="-fx-padding: 0 0 0 30;" />
+        </VBox>
+    </VBox>
+
+    <!-- Error Message -->
+    <Label fx:id="errorLabel"
+           textFill="red"
+           wrapText="true"
+           maxWidth="600"
+           style="-fx-font-size: 14px; -fx-padding: 10;" />
+
+    <!-- Navigation Buttons -->
+    <HBox spacing="30" alignment="CENTER">
+        <Button text="Back"
+                onAction="#goBack"
+                style="-fx-padding: 8 20; -fx-font-size: 14px;" />
+        <Button text="Next"
+                onAction="#goNext"
+                style="-fx-padding: 8 20; -fx-font-size: 14px;" />
+    </HBox>
+</VBox>

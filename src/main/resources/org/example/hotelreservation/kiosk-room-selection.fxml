@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="org.example.hotelreservation.controller.RoomSelectionController"
+      alignment="CENTER" spacing="10" prefWidth="800" prefHeight="600"
+      style="-fx-padding: 40px;">
+
+    <Label text="Room Selection" style="-fx-font-size: 24px;"/>
+
+    <Label text="Number of Guests:"/>
+    <Spinner fx:id="guestSpinner"/>
+
+    <Label text="Check-In Date:"/>
+    <DatePicker fx:id="checkInDate"/>
+
+    <Label text="Check-Out Date:"/>
+    <DatePicker fx:id="checkOutDate"/>
+
+    <Label fx:id="suggestionLabel" wrapText="true"/>
+
+    <Button text="Next" onAction="#goToGuestDetails"/>
+</VBox>

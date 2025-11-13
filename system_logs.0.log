@@ -1,0 +1,380 @@
+Mar 26, 2025 11:10:45 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Mar 26, 2025 11:10:57 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin generated daily report.
+Mar 26, 2025 11:14:12 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Mar 26, 2025 11:16:24 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Mar 26, 2025 11:19:41 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Mar 26, 2025 11:24:57 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Mar 26, 2025 11:25:07 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin generated daily report.
+Mar 26, 2025 11:29:11 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Mar 26, 2025 11:31:12 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Mar 26, 2025 11:32:44 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Mar 26, 2025 11:33:18 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Reservation cancelled.
+Mar 26, 2025 11:33:21 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin generated daily report.
+Apr 09, 2025 1:12:48 P.M. org.example.hotelreservation.util.LoggerUtil logWarning
+WARNING: Failed login attempt
+Apr 09, 2025 1:12:52 P.M. org.example.hotelreservation.util.LoggerUtil logWarning
+WARNING: Failed login attempt
+Apr 09, 2025 1:12:53 P.M. org.example.hotelreservation.util.LoggerUtil logWarning
+WARNING: Failed login attempt
+Apr 09, 2025 1:13:15 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 09, 2025 1:15:55 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin generated daily report.
+Apr 09, 2025 1:16:22 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin generated daily report.
+Apr 12, 2025 3:17:07 A.M. org.example.hotelreservation.util.LoggerUtil logWarning
+WARNING: Failed login attempt
+Apr 12, 2025 3:17:08 A.M. org.example.hotelreservation.util.LoggerUtil logWarning
+WARNING: Failed login attempt
+Apr 12, 2025 3:17:09 A.M. org.example.hotelreservation.util.LoggerUtil logWarning
+WARNING: Failed login attempt
+Apr 12, 2025 10:14:09 A.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 12, 2025 10:25:18 A.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 12, 2025 10:27:38 A.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 12, 2025 10:46:50 A.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 12, 2025 10:52:37 A.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 12, 2025 10:53:02 A.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 12, 2025 11:11:50 A.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 12, 2025 11:48:49 A.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 12, 2025 12:10:03 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 12, 2025 12:13:36 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 12, 2025 12:13:38 P.M. org.example.hotelreservation.util.LoggerUtil logSevere
+SEVERE: Scene load failed: 
+/C:/Users/Soniya/Downloads/hotelreservation/hotelreservation/target/classes/org/example/hotelreservation/admin-feedback.fxml:29
+
+Apr 12, 2025 12:17:34 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 12, 2025 12:19:39 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 12, 2025 12:20:51 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 12, 2025 12:27:50 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 12, 2025 12:29:29 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 12, 2025 12:31:38 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 12, 2025 12:32:56 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 12, 2025 12:44:33 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 12, 2025 12:46:03 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 12, 2025 12:49:03 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 12, 2025 12:50:58 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 12, 2025 12:54:05 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 12, 2025 12:58:47 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 12, 2025 11:28:57 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 12:08:58 A.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 12:31:14 A.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 12:33:46 A.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 12:46:03 A.M. org.example.hotelreservation.util.LoggerUtil logWarning
+WARNING: Failed login attempt
+Apr 13, 2025 12:46:08 A.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 2:57:41 A.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 3:04:20 A.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 3:04:23 A.M. org.example.hotelreservation.util.LoggerUtil logSevere
+SEVERE: Scene load failed: 
+/C:/Users/Soniya/Downloads/hotelreservation/hotelreservation/target/classes/org/example/hotelreservation/admin-available.fxml
+
+Apr 13, 2025 3:05:48 A.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 3:10:34 A.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 3:13:27 A.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 3:14:42 A.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 3:14:44 A.M. org.example.hotelreservation.util.LoggerUtil logSevere
+SEVERE: Scene load failed: 
+/C:/Users/Soniya/Downloads/hotelreservation/hotelreservation/target/classes/org/example/hotelreservation/admin-available.fxml
+
+Apr 13, 2025 3:14:46 A.M. org.example.hotelreservation.util.LoggerUtil logSevere
+SEVERE: Scene load failed: 
+/C:/Users/Soniya/Downloads/hotelreservation/hotelreservation/target/classes/org/example/hotelreservation/admin-available.fxml
+
+Apr 13, 2025 3:16:38 A.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 3:18:49 A.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 3:20:55 A.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 3:32:06 A.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 3:38:33 A.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 4:02:15 A.M. org.example.hotelreservation.util.LoggerUtil logWarning
+WARNING: Failed login attempt
+Apr 13, 2025 4:02:20 A.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 4:52:22 A.M. org.example.hotelreservation.util.LoggerUtil logWarning
+WARNING: Failed login attempt
+Apr 13, 2025 4:52:27 A.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 4:53:30 A.M. org.example.hotelreservation.util.LoggerUtil logWarning
+WARNING: Failed login attempt
+Apr 13, 2025 4:53:35 A.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 5:04:03 A.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 5:06:55 A.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 5:12:01 A.M. org.example.hotelreservation.util.LoggerUtil logWarning
+WARNING: Failed login attempt
+Apr 13, 2025 5:12:05 A.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 11:33:27 A.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 11:41:52 A.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 12:06:26 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 12:10:09 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 12:13:02 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 12:14:37 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 12:15:41 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 12:35:14 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 12:35:16 P.M. org.example.hotelreservation.util.LoggerUtil logSevere
+SEVERE: Scene load failed: Error resolving onAction='#handleBack', either the event handler is not in the Namespace or there is an error in the script.
+/C:/Users/Soniya/Downloads/hotelreservation/hotelreservation/target/classes/org/example/hotelreservation/admin-available.fxml:17
+
+Apr 13, 2025 12:40:18 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 12:51:50 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 12:53:25 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 1:14:19 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 1:16:12 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 1:25:40 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 1:27:13 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 1:40:03 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 2:06:12 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 2:29:47 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 2:40:22 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 2:48:58 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 2:49:06 P.M. org.example.hotelreservation.util.LoggerUtil logSevere
+SEVERE: Scene load failed: Error resolving onAction='#addNewRoom', either the event handler is not in the Namespace or there is an error in the script.
+/C:/Users/Soniya/Downloads/hotelreservation/hotelreservation/target/classes/org/example/hotelreservation/admin-modify.fxml:37
+
+Apr 13, 2025 2:56:11 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 2:56:29 P.M. org.example.hotelreservation.util.LoggerUtil logSevere
+SEVERE: Scene load failed: 
+/C:/Users/Soniya/Downloads/hotelreservation/hotelreservation/target/classes/org/example/hotelreservation/admin-modify.fxml
+
+Apr 13, 2025 2:59:28 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 3:03:51 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 3:09:54 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 3:19:04 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 3:28:55 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 3:54:03 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 4:04:39 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 4:24:20 P.M. org.example.hotelreservation.util.LoggerUtil logWarning
+WARNING: Failed login attempt
+Apr 13, 2025 4:24:20 P.M. org.example.hotelreservation.util.LoggerUtil logWarning
+WARNING: Failed login attempt
+Apr 13, 2025 4:24:23 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 4:32:55 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 4:58:08 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 5:00:41 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 5:04:35 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 5:06:44 P.M. org.example.hotelreservation.util.LoggerUtil logWarning
+WARNING: Failed login attempt
+Apr 13, 2025 5:06:48 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 5:09:24 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 5:10:12 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 5:11:07 P.M. org.example.hotelreservation.util.LoggerUtil logWarning
+WARNING: Failed login attempt
+Apr 13, 2025 5:11:11 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 5:29:16 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 5:41:42 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 5:53:55 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 5:59:55 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 6:05:10 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 6:13:10 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 6:18:51 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 6:23:50 P.M. org.example.hotelreservation.util.LoggerUtil logWarning
+WARNING: Failed login attempt
+Apr 13, 2025 6:23:53 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 6:45:35 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 6:51:47 P.M. org.example.hotelreservation.util.LoggerUtil logWarning
+WARNING: Failed login attempt
+Apr 13, 2025 6:51:51 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 6:51:52 P.M. org.example.hotelreservation.util.LoggerUtil logSevere
+SEVERE: Scene load failed: Error resolving onAction='#searchReservation', either the event handler is not in the Namespace or there is an error in the script.
+/C:/Users/Soniya/Downloads/hotelreservation/hotelreservation/target/classes/org/example/hotelreservation/admin-checkout.fxml:26
+
+Apr 13, 2025 6:51:56 P.M. org.example.hotelreservation.util.LoggerUtil logSevere
+SEVERE: Scene load failed: Error resolving onAction='#searchReservation', either the event handler is not in the Namespace or there is an error in the script.
+/C:/Users/Soniya/Downloads/hotelreservation/hotelreservation/target/classes/org/example/hotelreservation/admin-checkout.fxml:26
+
+Apr 13, 2025 6:52:07 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 6:52:09 P.M. org.example.hotelreservation.util.LoggerUtil logSevere
+SEVERE: Scene load failed: Error resolving onAction='#searchReservation', either the event handler is not in the Namespace or there is an error in the script.
+/C:/Users/Soniya/Downloads/hotelreservation/hotelreservation/target/classes/org/example/hotelreservation/admin-checkout.fxml:26
+
+Apr 13, 2025 6:52:18 P.M. org.example.hotelreservation.util.LoggerUtil logSevere
+SEVERE: Scene load failed: Error resolving onAction='#searchReservation', either the event handler is not in the Namespace or there is an error in the script.
+/C:/Users/Soniya/Downloads/hotelreservation/hotelreservation/target/classes/org/example/hotelreservation/admin-checkout.fxml:26
+
+Apr 13, 2025 6:52:32 P.M. org.example.hotelreservation.util.LoggerUtil logSevere
+SEVERE: Scene load failed: Error resolving onAction='#searchReservation', either the event handler is not in the Namespace or there is an error in the script.
+/C:/Users/Soniya/Downloads/hotelreservation/hotelreservation/target/classes/org/example/hotelreservation/admin-checkout.fxml:26
+
+Apr 13, 2025 6:52:33 P.M. org.example.hotelreservation.util.LoggerUtil logSevere
+SEVERE: Scene load failed: Error resolving onAction='#searchReservation', either the event handler is not in the Namespace or there is an error in the script.
+/C:/Users/Soniya/Downloads/hotelreservation/hotelreservation/target/classes/org/example/hotelreservation/admin-checkout.fxml:26
+
+Apr 13, 2025 6:52:33 P.M. org.example.hotelreservation.util.LoggerUtil logSevere
+SEVERE: Scene load failed: Error resolving onAction='#searchReservation', either the event handler is not in the Namespace or there is an error in the script.
+/C:/Users/Soniya/Downloads/hotelreservation/hotelreservation/target/classes/org/example/hotelreservation/admin-checkout.fxml:26
+
+Apr 13, 2025 6:52:33 P.M. org.example.hotelreservation.util.LoggerUtil logSevere
+SEVERE: Scene load failed: Error resolving onAction='#searchReservation', either the event handler is not in the Namespace or there is an error in the script.
+/C:/Users/Soniya/Downloads/hotelreservation/hotelreservation/target/classes/org/example/hotelreservation/admin-checkout.fxml:26
+
+Apr 13, 2025 6:52:34 P.M. org.example.hotelreservation.util.LoggerUtil logSevere
+SEVERE: Scene load failed: Error resolving onAction='#searchReservation', either the event handler is not in the Namespace or there is an error in the script.
+/C:/Users/Soniya/Downloads/hotelreservation/hotelreservation/target/classes/org/example/hotelreservation/admin-checkout.fxml:26
+
+Apr 13, 2025 6:59:00 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 6:59:03 P.M. org.example.hotelreservation.util.LoggerUtil logSevere
+SEVERE: Scene load failed: 
+/C:/Users/Soniya/Downloads/hotelreservation/hotelreservation/target/classes/org/example/hotelreservation/admin-checkout.fxml:52
+
+Apr 13, 2025 7:04:12 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 7:04:14 P.M. org.example.hotelreservation.util.LoggerUtil logSevere
+SEVERE: Scene load failed: Error resolving onAction='#showReservationSummary', either the event handler is not in the Namespace or there is an error in the script.
+/C:/Users/Soniya/Downloads/hotelreservation/hotelreservation/target/classes/org/example/hotelreservation/admin-checkout.fxml:32
+
+Apr 13, 2025 7:09:04 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 7:10:53 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 7:25:36 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 7:41:13 P.M. org.example.hotelreservation.util.LoggerUtil logWarning
+WARNING: Failed login attempt
+Apr 13, 2025 7:41:17 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 7:41:18 P.M. org.example.hotelreservation.util.LoggerUtil logSevere
+SEVERE: Scene load failed: Error resolving onAction='#handleCheckOutGuest', either the event handler is not in the Namespace or there is an error in the script.
+/C:/Users/Soniya/Downloads/hotelreservation/hotelreservation/target/classes/org/example/hotelreservation/admin-checkout.fxml:22
+
+Apr 13, 2025 7:48:02 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 7:54:15 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 7:54:18 P.M. org.example.hotelreservation.util.LoggerUtil logSevere
+SEVERE: Scene load failed: 
+/C:/Users/Soniya/Downloads/hotelreservation/hotelreservation/target/classes/org/example/hotelreservation/admin-checkout.fxml:28
+
+Apr 13, 2025 7:58:26 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 7:59:14 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 9:52:17 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 10:09:18 P.M. org.example.hotelreservation.util.LoggerUtil logWarning
+WARNING: Failed login attempt
+Apr 13, 2025 10:09:22 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 10:19:46 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 10:21:18 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 10:35:56 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 10:44:03 P.M. org.example.hotelreservation.util.LoggerUtil logWarning
+WARNING: Failed login attempt
+Apr 13, 2025 10:44:06 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 13, 2025 10:49:40 P.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 14, 2025 12:06:51 A.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 14, 2025 10:29:54 A.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 14, 2025 10:40:18 A.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 14, 2025 10:42:09 A.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin
+Apr 14, 2025 10:43:54 A.M. org.example.hotelreservation.util.LoggerUtil logInfo
+INFO: Admin logged in: admin

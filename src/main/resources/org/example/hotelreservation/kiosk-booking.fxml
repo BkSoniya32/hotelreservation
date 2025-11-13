@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.example.hotelreservation.controller.KioskController"
+            prefWidth="800" prefHeight="600">
+
+    <VBox layoutX="50" layoutY="30" spacing="10" alignment="TOP_LEFT">
+        <Label text="Kiosk Room Booking" style="-fx-font-size: 22px;"/>
+
+        <TextField fx:id="nameField" promptText="Name"/>
+        <TextField fx:id="phoneField" promptText="Phone Number"/>
+        <TextField fx:id="emailField" promptText="Email"/>
+        <TextField fx:id="addressField" promptText="Address"/>
+
+        <Label text="Number of Guests"/>
+        <Spinner fx:id="guestsSpinner"/>
+
+        <Label text="Check-In Date"/>
+        <DatePicker fx:id="checkInDate"/>
+
+        <Label text="Check-Out Date"/>
+        <DatePicker fx:id="checkOutDate"/>
+
+        <Button fx:id="confirmButton" text="Confirm Booking" onAction="#confirmBooking"/>
+
+        <Label fx:id="confirmationLabel" text="" wrapText="true"/>
+    </VBox>
+</AnchorPane>

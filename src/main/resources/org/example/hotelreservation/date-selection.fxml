@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="org.example.hotelreservation.controller.DateSelectionController"
+      spacing="20" alignment="CENTER" prefWidth="800" prefHeight="600"
+      style="-fx-background-color: #fffaf0; -fx-padding: 40px;">
+
+    <Label text="Select Check-In and Check-Out Dates" style="-fx-font-size: 18px;"/>
+
+    <DatePicker fx:id="checkInDate" promptText="Check-In Date"/>
+    <DatePicker fx:id="checkOutDate" promptText="Check-Out Date"/>
+
+    <Label fx:id="errorLabel" textFill="red"/>
+
+    <HBox spacing="20" alignment="CENTER">
+        <Button text="Back" onAction="#goBack"/>
+        <Button text="Next" onAction="#goNext"/>
+    </HBox>
+</VBox>

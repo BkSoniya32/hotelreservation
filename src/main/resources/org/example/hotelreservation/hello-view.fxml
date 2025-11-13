@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.example.hotelreservation.view.HelloController"
+            prefWidth="800" prefHeight="600"
+            style="-fx-background-color: linear-gradient(to bottom, #e0f7fa, #ffffff);">
+
+    <!-- Top Title -->
+    <top>
+        <Label fx:id="welcomeLabel"
+               text="🏨 Welcome to Hotel ABC Reservation System"
+               BorderPane.alignment="CENTER"
+               style="-fx-font-size: 26px; -fx-font-weight: bold; -fx-text-fill: #004d40; -fx-padding: 40 0 20 0;" />
+    </top>
+
+    <!-- Centered Buttons -->
+    <center>
+        <VBox alignment="CENTER" spacing="25">
+            <Button fx:id="kioskButton" text="Start Kiosk Booking"
+                    onAction="#onKioskClicked"
+                    style="-fx-font-size: 16px; -fx-font-weight: bold; -fx-background-color: #009688; -fx-text-fill: white; -fx-padding: 12 28; -fx-background-radius: 8;" />
+
+            <Button fx:id="adminButton" text="Admin Login"
+                    onAction="#onAdminClicked"
+                    style="-fx-font-size: 16px; -fx-font-weight: bold; -fx-background-color: #00796b; -fx-text-fill: white; -fx-padding: 12 28; -fx-background-radius: 8;" />
+
+            <Button fx:id="feedbackButton" text="Leave Your Feedback"
+                    onAction="#onFeedbackClicked"
+                    style="-fx-font-size: 16px; -fx-font-weight: bold; -fx-background-color: #4caf50; -fx-text-fill: white; -fx-padding: 12 28; -fx-background-radius: 8;" />
+        </VBox>
+    </center>
+
+    <!-- Optional Footer -->
+    <bottom>
+        <Label text="© 2025 Hotel ABC | All rights reserved"
+               BorderPane.alignment="CENTER"
+               style="-fx-font-size: 12px; -fx-text-fill: #888888; -fx-padding: 10;" />
+    </bottom>
+</BorderPane>

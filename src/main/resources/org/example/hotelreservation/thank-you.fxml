@@ -1,0 +1,9 @@
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="org.example.hotelreservation.controller.ThankYouController"
+      spacing="20" alignment="CENTER" prefWidth="800" prefHeight="600"
+      style="-fx-background-color: #e6ffe6; -fx-padding: 40px;">
+
+    <Label text="Thank you! Your booking is confirmed." style="-fx-font-size: 18px;"/>
+    <Label text="Please visit the front desk for billing." style="-fx-font-size: 14px;"/>
+
+    <Button text="Back to Home" onAction="#goHome"/>
+</VBox>

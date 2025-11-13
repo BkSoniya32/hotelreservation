@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.example.hotelreservation.controller.AdminSearchController"
+            prefWidth="1100" prefHeight="600"
+            style="-fx-padding: 20; -fx-background-color: #f4faff;">
+
+    <!-- Top Search Bar -->
+    <top>
+        <HBox spacing="15" alignment="CENTER_LEFT" style="-fx-padding: 10;">
+            <Label text="Search by Name, Phone, or Bill ID:" style="-fx-font-size: 16px;" />
+            <TextField fx:id="searchField" promptText="Enter guest info..." style="-fx-pref-width: 300px;" />
+            <Button text="Search" onAction="#handleSearch" style="-fx-background-color: #2196f3; -fx-text-fill: white;" />
+            <Button text="Back to Dashboard" onAction="#goBack" style="-fx-background-color: #888; -fx-text-fill: white;" />
+        </HBox>
+    </top>
+
+    <!-- Table View -->
+    <center>
+        <ScrollPane fitToWidth="true" fitToHeight="true">
+            <TableView fx:id="resultsTable" prefHeight="500" prefWidth="1080">
+                <columns>
+                    <TableColumn fx:id="billCol" text="Bill ID" prefWidth="80" />
+                    <TableColumn fx:id="nameCol" text="Full Name" prefWidth="140" />
+                    <TableColumn fx:id="emailCol" text="Email" prefWidth="160" />
+                    <TableColumn fx:id="phoneCol" text="Phone" prefWidth="120" />
+                    <TableColumn fx:id="checkinCol" text="Check-In" prefWidth="90" />
+                    <TableColumn fx:id="checkoutCol" text="Check-Out" prefWidth="90" />
+                    <TableColumn fx:id="roomCol" text="Room(s)" prefWidth="150" />
+                    <TableColumn fx:id="priceCol" text="Total Price" prefWidth="90" />
+                    <TableColumn fx:id="discountCol" text="Discount" prefWidth="90" />
+                    <TableColumn fx:id="statusCol" text="Status" prefWidth="120" />
+                    <TableColumn fx:id="feedbackCol" text="Feedback" prefWidth="200" />
+                </columns>
+            </TableView>
+        </ScrollPane>
+    </center>
+</BorderPane>

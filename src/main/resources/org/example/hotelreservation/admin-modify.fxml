@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.*?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.example.hotelreservation.controller.AdminModifyController"
+            prefWidth="850" prefHeight="700"
+            style="-fx-background-color: #f8faff; -fx-padding: 20;">
+
+    <!-- 🔍 Top - Search Reservation -->
+    <top>
+        <VBox spacing="12" BorderPane.alignment="CENTER">
+            <Label text="🔄 Modify Reservation"
+                   style="-fx-font-size: 24px; -fx-text-fill: #2a4d69; -fx-font-weight: bold;" />
+            <HBox spacing="12" alignment="CENTER_LEFT">
+                <Label text="Reservation ID:" style="-fx-font-size: 16px;" />
+                <TextField fx:id="reservationIdField" prefWidth="200" />
+                <Button text="Search" onAction="#searchReservation" />
+            </HBox>
+        </VBox>
+    </top>
+
+    <!-- 📝 Editable Room Sections -->
+    <center>
+        <VBox spacing="15" BorderPane.alignment="CENTER">
+            <!-- Scrollable area for room editor -->
+            <ScrollPane fitToWidth="true" prefHeight="450">
+                <VBox fx:id="editRoomContainer"
+                      spacing="10"
+                      style="-fx-padding: 20; -fx-background-color: #ffffff; -fx-background-radius: 8;" />
+            </ScrollPane>
+
+            <!-- Add new room section -->
+            <HBox spacing="10" alignment="CENTER_LEFT">
+                <Label text="Add Room Type:" />
+                <ComboBox fx:id="addRoomTypeDropdown" prefWidth="150" />
+                <Button text="Add New Room" onAction="#addNewRoom" />
+            </HBox>
+        </VBox>
+    </center>
+
+    <!-- 🔽 Bottom - Save/Back -->
+    <bottom>
+        <VBox spacing="15" BorderPane.alignment="CENTER">
+            <HBox spacing="20" alignment="CENTER_LEFT">
+                <Label text="Check-in Date:" />
+                <DatePicker fx:id="checkInField" />
+                <Label text="Check-out Date:" />
+                <DatePicker fx:id="checkOutField" />
+                <Label text="Guests:" />
+                <Spinner fx:id="guestSpinner" prefWidth="60" />
+            </HBox>
+
+            <Label fx:id="statusLabel"
+                   style="-fx-text-fill: red; -fx-font-size: 14px;" />
+
+            <HBox spacing="20" alignment="CENTER">
+                <Button text="Back to Dashboard"
+                        onAction="#goBack"
+                        style="-fx-padding: 8 20; -fx-background-color: #cccccc;" />
+                <Button text="Save Changes"
+                        onAction="#saveChanges"
+                        style="-fx-padding: 8 20; -fx-background-color: #c8e6c9; -fx-font-weight: bold;" />
+            </HBox>
+        </VBox>
+    </bottom>
+
+</BorderPane>

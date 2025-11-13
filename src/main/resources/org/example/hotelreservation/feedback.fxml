@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="org.example.hotelreservation.controller.FeedbackController"
+      alignment="CENTER" spacing="25" prefWidth="800" prefHeight="600"
+      style="-fx-background-color: #f5f9ff; -fx-padding: 40px;">
+
+    <Label text="We Value Your Feedback!"
+           style="-fx-font-size: 26px; -fx-font-weight: bold; -fx-text-fill: #2a4d69;" />
+
+    <!-- Bill Number Input -->
+    <HBox spacing="10" alignment="CENTER">
+        <Label text="Bill Number:" style="-fx-font-size: 16px; -fx-font-weight: bold; -fx-text-fill: #333;" />
+        <TextField fx:id="billNumberField"
+                   promptText="Enter Bill Number"
+                   prefWidth="250"
+                   style="-fx-font-size: 14px;" />
+    </HBox>
+
+    <!-- Comments Area -->
+    <VBox spacing="5" alignment="CENTER">
+        <Label text="Your Comments:" style="-fx-font-size: 16px; -fx-font-weight: bold; -fx-text-fill: #333;" />
+        <TextArea fx:id="commentsArea"
+                  promptText="Leave your comments here..."
+                  prefHeight="150" prefWidth="500"
+                  wrapText="true"
+                  style="-fx-font-size: 14px;" />
+    </VBox>
+
+    <!-- Rating Slider -->
+    <VBox spacing="5" alignment="CENTER">
+        <Label text="Rate Your Experience (1 to 10):"
+               style="-fx-font-size: 16px; -fx-font-weight: bold; -fx-text-fill: #333;" />
+        <Slider fx:id="ratingSlider"
+                min="1" max="10" value="5"
+                majorTickUnit="1" minorTickCount="0"
+                showTickLabels="true" showTickMarks="true"
+                snapToTicks="true"
+                blockIncrement="1"
+                prefWidth="400"/>
+    </VBox>
+
+    <!-- Buttons: Back and Submit -->
+    <HBox spacing="20" alignment="CENTER">
+        <Button text="Back"
+                onAction="#goBack"
+                style="-fx-font-size: 14px; -fx-padding: 10px 25px;" />
+
+        <Button text="Submit Feedback"
+                onAction="#submitFeedback"
+                style="-fx-background-color: #1e88e5; -fx-text-fill: white; -fx-font-size: 15px; -fx-padding: 10px 25px; -fx-background-radius: 5px;" />
+    </HBox>
+
+    <!-- Result Message -->
+    <Label fx:id="resultLabel"
+           text=""
+           wrapText="true"
+           style="-fx-font-size: 15px; -fx-padding: 10px;" />
+
+</VBox>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="org.example.hotelreservation.controller.AdminController"
+      alignment="CENTER" spacing="20" prefWidth="800" prefHeight="600"
+      style="-fx-padding: 40px; -fx-background-color: #f7f9fc;">
+
+    <Label text="Admin Dashboard"
+           style="-fx-font-size: 28px; -fx-font-weight: bold; -fx-text-fill: #2a4d69;" />
+
+    <Button text="Search Guest"
+            onAction="#openSearchPage"
+            style="-fx-font-size: 15px; -fx-pref-width: 220px;" />
+
+    <Button text="Check Out Guest"
+            onAction="#openCheckoutPage"
+            style="-fx-font-size: 15px; -fx-pref-width: 220px;" />
+
+    <Button text="Cancel Reservation"
+            onAction="#handleCancelReservation"
+            style="-fx-font-size: 15px; -fx-pref-width: 220px;" />
+
+    <Button text="All Feedback"
+            onAction="#openAllFeedbackPage"
+            style="-fx-font-size: 15px; -fx-pref-width: 220px;" />
+
+    <Button text="Modified Reservation"
+            onAction="#openModifiedReservationPage"
+            style="-fx-font-size: 15px; -fx-pref-width: 220px;" />
+
+    <Button text="Available Rooms"
+            onAction="#openAvailableRoomsPage"
+            style="-fx-font-size: 15px; -fx-pref-width: 220px;" />
+
+    <Button text="Back"
+            onAction="#handleBackFromDashboard"
+            style="-fx-font-size: 15px; -fx-pref-width: 220px; -fx-background-color: #eeeeee;" />
+</VBox>
